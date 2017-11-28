@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+Log.d("박정환","박정환");
         if (getIntent().getExtras() != null) {
 
             for (String key : getIntent().getExtras().keySet()) {
